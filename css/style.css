@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(105, 209, 228);
+}
+
+h1 {
+  text-shadow: 2px 2px 3px blue;
+}
+
+h2 {
+  text-shadow: 2px 2px;
+}
+h3 {
+  color: rgb(98, 9, 172);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h4 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h5 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h6 {
+  color: rgb(212, 16, 16);
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+p.a {
+  white-space: nowrap;
+}
+
+p.b {
+  white-space: normal;
+}
+
+p.c {
+  white-space: pre;
+}
+
+p.d {
+  text-indent: 50px;
+}
+p.e {
+  word-spacing: 5px;
+  color: rgb(155, 30, 155);
+}
+
+p.f {
+  letter-spacing: 5px;
+  color: blue;
+}
+p.k {
+  font-size: 20px;
+}
+
+p.s {
+  font-size: small;
+}
+
+p.l {
+  font-size: large;
+}
+
+p.m {
+  font-size: medium;
+}
+
+p.w {
+  font-weight: 900;
+}
+
+p.t {
+  font-style: italic;
+}
+
+p.a {
+  font-family: fantasy;
+}
+
+@font-face {
+  font-family: Baby-Magnolia;
+  src: url(font/Baby-Magnolia-9350271.zip);
+}
+
+div {
+  font-family: Baby-Magnolia;
+}
